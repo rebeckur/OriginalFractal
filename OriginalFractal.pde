@@ -28,7 +28,7 @@ public void myFractal(int x, int y, int size)
 		myFractal(x, y+size/4, size/2);
 		//myFractal(x-size/4, y+size/2, size/8);
 		//myFractal(x, y-3*size/7, size/7);
-		col-=1;
+		col--;
 
 	}
 	
